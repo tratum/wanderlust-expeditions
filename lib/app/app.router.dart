@@ -8,7 +8,6 @@
 import 'package:flutter/material.dart' as _i15;
 import 'package:stacked/stacked.dart' as _i14;
 import 'package:stacked_services/stacked_services.dart' as _i13;
-
 import '../ui/views/destinations/destination_view.dart' as _i3;
 import '../ui/views/home/home_view.dart' as _i2;
 import '../ui/views/places/adventure/adventure_view.dart' as _i6;
@@ -164,7 +163,7 @@ class StackedRouterWeb extends _i14.RootStackRouter {
         ),
         _i14.RouteConfig(
           HomeViewRoute.name,
-          path: '/home',
+          path: '/',
         ),
         _i14.RouteConfig(
           DestinationViewRoute.name,
@@ -245,7 +244,7 @@ class HomeViewRoute extends _i14.PageRouteInfo<void> {
   const HomeViewRoute()
       : super(
           HomeViewRoute.name,
-          path: '/home',
+          path: '/',
         );
 
   static const String name = 'HomeView';

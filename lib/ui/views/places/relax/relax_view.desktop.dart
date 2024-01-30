@@ -55,7 +55,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                    relaxPlacesHeading1,                          style: TextStyle(
+                          relaxPlacesHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -70,7 +71,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                         ),
                         horizontalSpaceSmall,
                         const Text(
-                          relaxPlacesHeading2,                          style: TextStyle(
+                          relaxPlacesHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -84,7 +86,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-                      relaxPlacesSubHeading,                      style: TextStyle(
+                      relaxPlacesSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,
@@ -167,7 +170,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                    relaxPlacesHeading1,                          style: TextStyle(
+                          relaxPlacesHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -182,7 +186,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                         ),
                         horizontalSpaceSmall,
                         const Text(
-                          relaxPlacesHeading2,                          style: TextStyle(
+                          relaxPlacesHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -196,7 +201,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-                      relaxPlacesSubHeading,                      style: TextStyle(
+                      relaxPlacesSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,
@@ -279,7 +285,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                    relaxPlacesHeading1,                          style: TextStyle(
+                          relaxPlacesHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -294,7 +301,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                         ),
                         horizontalSpaceSmall,
                         const Text(
-                          relaxPlacesHeading2,                          style: TextStyle(
+                          relaxPlacesHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -308,7 +316,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-                      relaxPlacesSubHeading,                      style: TextStyle(
+                      relaxPlacesSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,
@@ -391,7 +400,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                    relaxPlacesHeading1,                          style: TextStyle(
+                          relaxPlacesHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -406,7 +416,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                         ),
                         horizontalSpaceSmall,
                         const Text(
-                          relaxPlacesHeading2,                          style: TextStyle(
+                          relaxPlacesHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -420,7 +431,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-                      relaxPlacesSubHeading,                      style: TextStyle(
+                      relaxPlacesSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,
@@ -503,7 +515,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                    relaxPlacesHeading1,                          style: TextStyle(
+                          relaxPlacesHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -518,7 +531,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                         ),
                         horizontalSpaceSmall,
                         const Text(
-                          relaxPlacesHeading2,                          style: TextStyle(
+                          relaxPlacesHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -532,7 +546,8 @@ class RelaxingViewDesktop extends ViewModelWidget<PlaceViewModel> {
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-                      relaxPlacesSubHeading,                      style: TextStyle(
+                      relaxPlacesSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,

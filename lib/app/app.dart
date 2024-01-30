@@ -2,6 +2,7 @@ import 'package:stacked/stacked_annotations.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:wanderlust_expeditions/ui/bottom_sheets/notice/notice_sheet.dart';
 import 'package:wanderlust_expeditions/ui/dialogs/auth_dialog/auth_dialog.dart';
+import 'package:wanderlust_expeditions/ui/dialogs/auth_dialog/auth_dialog_mobile.dart';
 import 'package:wanderlust_expeditions/ui/dialogs/info_alert/info_alert_dialog.dart';
 import 'package:wanderlust_expeditions/ui/views/destinations/destination_view.dart';
 import 'package:wanderlust_expeditions/ui/views/home/home_view.dart';
@@ -23,7 +24,7 @@ import 'package:wanderlust_expeditions/ui/views/unknown/unknown_view.dart';
 @StackedApp(
   routes: [
     CustomRoute(page: StartupView, initial: true),
-    CustomRoute(page: HomeView),
+    CustomRoute(page: HomeView, path: '/', deferredLoading: true),
     CustomRoute(page: DestinationView),
     CustomRoute(page: BeachView),
     CustomRoute(page: AdventureView),
@@ -56,6 +57,7 @@ import 'package:wanderlust_expeditions/ui/views/unknown/unknown_view.dart';
   dialogs: [
     StackedDialog(classType: InfoAlertDialog),
     StackedDialog(classType: AuthDialog),
+    StackedDialog(classType: AuthDialogMobile),
     // @stacked-dialog
   ],
 )

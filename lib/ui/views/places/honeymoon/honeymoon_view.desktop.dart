@@ -56,7 +56,8 @@ class HoneyMoonViewDesktop extends ViewModelWidget<PlaceViewModel> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                    honeymoonHeading1,                          style: TextStyle(
+                          honeymoonHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -71,7 +72,8 @@ class HoneyMoonViewDesktop extends ViewModelWidget<PlaceViewModel> {
                         ),
                         horizontalSpaceSmall,
                         const Text(
-honeymoonHeading2,                          style: TextStyle(
+                          honeymoonHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -85,7 +87,8 @@ honeymoonHeading2,                          style: TextStyle(
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-honeymoonSubHeading,                      style: TextStyle(
+                      honeymoonSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,
@@ -169,7 +172,8 @@ honeymoonSubHeading,                      style: TextStyle(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                    honeymoonHeading1,                          style: TextStyle(
+                          honeymoonHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -184,7 +188,8 @@ honeymoonSubHeading,                      style: TextStyle(
                         ),
                         horizontalSpaceSmall,
                         const Text(
-                          honeymoonHeading2,                          style: TextStyle(
+                          honeymoonHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -198,7 +203,8 @@ honeymoonSubHeading,                      style: TextStyle(
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-                      honeymoonSubHeading,                      style: TextStyle(
+                      honeymoonSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,
@@ -282,7 +288,8 @@ honeymoonSubHeading,                      style: TextStyle(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                      honeymoonHeading1,                          style: TextStyle(
+                          honeymoonHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -297,7 +304,8 @@ honeymoonSubHeading,                      style: TextStyle(
                         ),
                         horizontalSpaceSmall,
                         const Text(
-    honeymoonHeading2,                          style: TextStyle(
+                          honeymoonHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -311,7 +319,8 @@ honeymoonSubHeading,                      style: TextStyle(
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-    honeymoonSubHeading,                      style: TextStyle(
+                      honeymoonSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,
@@ -395,7 +404,8 @@ honeymoonSubHeading,                      style: TextStyle(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                      honeymoonHeading1,                          style: TextStyle(
+                          honeymoonHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -410,7 +420,8 @@ honeymoonSubHeading,                      style: TextStyle(
                         ),
                         horizontalSpaceSmall,
                         const Text(
-    honeymoonHeading2,                          style: TextStyle(
+                          honeymoonHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -424,7 +435,8 @@ honeymoonSubHeading,                      style: TextStyle(
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-    honeymoonSubHeading,                      style: TextStyle(
+                      honeymoonSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,
@@ -508,7 +520,8 @@ honeymoonSubHeading,                      style: TextStyle(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                    honeymoonHeading1,                          style: TextStyle(
+                          honeymoonHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -523,7 +536,8 @@ honeymoonSubHeading,                      style: TextStyle(
                         ),
                         horizontalSpaceSmall,
                         const Text(
-                          honeymoonHeading2,                          style: TextStyle(
+                          honeymoonHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -537,7 +551,8 @@ honeymoonSubHeading,                      style: TextStyle(
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-                      honeymoonSubHeading,                      style: TextStyle(
+                      honeymoonSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,

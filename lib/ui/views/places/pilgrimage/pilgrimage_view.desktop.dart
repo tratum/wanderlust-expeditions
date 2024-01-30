@@ -56,7 +56,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                    pilgrimageHeading1,                          style: TextStyle(
+                          pilgrimageHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -71,7 +72,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                         ),
                         horizontalSpaceSmall,
                         const Text(
-                          pilgrimageHeading2,                          style: TextStyle(
+                          pilgrimageHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -85,7 +87,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-                      pilgrimageSubHeading,                      style: TextStyle(
+                      pilgrimageSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,
@@ -169,7 +172,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                    pilgrimageHeading1,                          style: TextStyle(
+                          pilgrimageHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -184,7 +188,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                         ),
                         horizontalSpaceSmall,
                         const Text(
-                          pilgrimageHeading2,                          style: TextStyle(
+                          pilgrimageHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -198,7 +203,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-                      pilgrimageSubHeading,                      style: TextStyle(
+                      pilgrimageSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,
@@ -282,7 +288,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                    pilgrimageHeading1,                          style: TextStyle(
+                          pilgrimageHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -297,7 +304,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                         ),
                         horizontalSpaceSmall,
                         const Text(
-                          pilgrimageHeading2,                          style: TextStyle(
+                          pilgrimageHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -311,7 +319,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-                      pilgrimageSubHeading,                      style: TextStyle(
+                      pilgrimageSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,
@@ -395,7 +404,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                    pilgrimageHeading1,                          style: TextStyle(
+                          pilgrimageHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -410,7 +420,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                         ),
                         horizontalSpaceSmall,
                         const Text(
-                          pilgrimageHeading2,                          style: TextStyle(
+                          pilgrimageHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -424,7 +435,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-                      pilgrimageSubHeading,                      style: TextStyle(
+                      pilgrimageSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,
@@ -508,7 +520,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-                    pilgrimageHeading1,                          style: TextStyle(
+                          pilgrimageHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -523,7 +536,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                         ),
                         horizontalSpaceSmall,
                         const Text(
-                          pilgrimageHeading2,                          style: TextStyle(
+                          pilgrimageHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -537,7 +551,8 @@ class PilgrimageViewDesktop extends ViewModelWidget<PlaceViewModel> {
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-                      pilgrimageSubHeading,                      style: TextStyle(
+                      pilgrimageSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,

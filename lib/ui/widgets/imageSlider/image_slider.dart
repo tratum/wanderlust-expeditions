@@ -6,12 +6,14 @@ class ImageSlider extends StatefulWidget {
   final String imgUrl1;
   final String imgUrl2;
   final String imgUrl3;
+  final double carouselHeight;
 
   const ImageSlider({
-  Key? key,
-  required this.imgUrl1,
-  required this.imgUrl2,
-  required this.imgUrl3,
+    Key? key,
+    required this.imgUrl1,
+    required this.imgUrl2,
+    required this.imgUrl3,
+    this.carouselHeight=390,
   }) : super(key: key);
 
   @override
@@ -67,15 +69,17 @@ class _ImageSliderState extends State<ImageSlider> {
                   return buildImage(urlImage, index);
                 },
                 options: CarouselOptions(
-                    height: 390,
+                    height: widget.carouselHeight,
                     autoPlay: true,
                     enableInfiniteScroll: false,
                     autoPlayAnimationDuration: const Duration(seconds: 1),
                     enlargeCenterPage: true,
                     onPageChanged: (index, reason) =>
-                        setState(() => activeIndex = index))),
+                        setState(() => activeIndex = index),
+                ),
+            ),
             const SizedBox(height: 16),
-            buildIndicator()
+            buildIndicator(),
           ],
         ),
       ),

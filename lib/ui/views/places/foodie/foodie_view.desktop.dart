@@ -520,7 +520,8 @@ class FoodieViewDesktop extends ViewModelWidget<PlaceViewModel> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         const Text(
-foodieHeading1,                          style: TextStyle(
+                          foodieHeading1,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -535,7 +536,8 @@ foodieHeading1,                          style: TextStyle(
                         ),
                         horizontalSpaceSmall,
                         const Text(
-foodieHeading2,                          style: TextStyle(
+                          foodieHeading2,
+                          style: TextStyle(
                             fontFamily: 'Afacad',
                             fontWeight: FontWeight.w900,
                             fontSize: 28,
@@ -549,7 +551,8 @@ foodieHeading2,                          style: TextStyle(
                     padding: EdgeInsets.only(
                         left: 70, top: 10, right: 50, bottom: 20),
                     child: Text(
-foodieSubHeading,                      style: TextStyle(
+                      foodieSubHeading,
+                      style: TextStyle(
                         fontFamily: 'Afacad',
                         fontWeight: FontWeight.w500,
                         fontSize: 18,

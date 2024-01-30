@@ -21,13 +21,7 @@ class AuthDialog extends StackedView<InfoAlertDialogModel> {
     required this.completer,
   }) : super(key: key);
 
-  late bool isLoading = false;
   final formkey = GlobalKey<FormState>();
-
-  // String email = '';
-  // String password = '';
-  TextEditingController emailcontroller = TextEditingController();
-  TextEditingController passcontroller = TextEditingController();
 
   Future<void> _launchURL(String url) async {
     Uri uri = Uri.parse(url);
@@ -55,6 +49,11 @@ class AuthDialog extends StackedView<InfoAlertDialogModel> {
     InfoAlertDialogModel viewModel,
     Widget? child,
   ) {
+    late bool isLoading = false;
+    // String email = '';
+    // String password = '';
+    TextEditingController emailController = TextEditingController();
+    TextEditingController passController = TextEditingController();
     return Dialog(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       backgroundColor: const Color(0XFFfcf8ef),
@@ -80,11 +79,6 @@ class AuthDialog extends StackedView<InfoAlertDialogModel> {
                 const SizedBox(
                   width: 12,
                 ),
-                // Container(
-                //   height: screenHeight(context) / 1.5,
-                //   width: 2, // Adjust the width of the vertical line
-                //   color: const Color(0XFFdbcebb),
-                // ),
                 SizedBox(
                   width: 300,
                   child: Column(
@@ -126,7 +120,7 @@ class AuthDialog extends StackedView<InfoAlertDialogModel> {
                           ),
                           verticalSpaceMedium,
                           SignInfield(
-                            controller: emailcontroller,
+                            controller: emailController,
                             keyBoardType: TextInputType.emailAddress,
                             maxLength: null,
                             suffixText: null,
@@ -142,13 +136,13 @@ class AuthDialog extends StackedView<InfoAlertDialogModel> {
                           // if (u_id == uid) {}
                           if (isValidForm) {
                             // setState(() {
-                            //   email = emailcontroller.text.toString();
-                            //   password = passcontroller.text.toString();
+                            //   email = emailController.text.toString();
+                            //   password = passController.text.toString();
                             // });
                             // userAuth
                             //     .signin(
-                            //   mail: emailcontroller.text.trim(),
-                            //   passwrd: passcontroller.text.trim(),
+                            //   mail: emailController.text.trim(),
+                            //   passwrd: passController.text.trim(),
                             // )
                             //     .then(
                             //       (signInSuccess) {

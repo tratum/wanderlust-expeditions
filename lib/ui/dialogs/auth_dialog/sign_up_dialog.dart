@@ -94,11 +94,11 @@ class _SignUpDialogState extends State<SignUpDialog> {
                             const Text(
                               'Sign-Up',
                               style: TextStyle(
-                                  fontSize: 28,
-                                  fontWeight: FontWeight.w600,
-                                  fontFamily: 'Afacad',
-                                  color: Color(0xFF000000),
-                                  letterSpacing: 1.2,
+                                fontSize: 28,
+                                fontWeight: FontWeight.w600,
+                                fontFamily: 'Afacad',
+                                color: Color(0xFF000000),
+                                letterSpacing: 1.2,
                               ),
                             ),
                             const Spacer(),
@@ -191,15 +191,18 @@ class _SignUpDialogState extends State<SignUpDialog> {
                                   formkey.currentState!.validate();
                               if (isValidfrom) {
                                 setState(() {
-                                  email = emailController.text.toString().trim();
-                                  firstname =
-                                      firstNameController.text.toString().trim();
+                                  email =
+                                      emailController.text.toString().trim();
+                                  firstname = firstNameController.text
+                                      .toString()
+                                      .trim();
                                   lastname =
                                       lastNameController.text.toString().trim();
                                   mob = mobileController.text.toString().trim();
                                   password =
                                       passwordController.text.toString().trim();
-                                  reEnterpassword = reEnterPasswordController.text
+                                  reEnterpassword = reEnterPasswordController
+                                      .text
                                       .toString()
                                       .trim();
                                 });

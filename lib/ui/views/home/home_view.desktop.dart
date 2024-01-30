@@ -1,19 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:stacked/stacked.dart';
-import 'package:stacked_services/stacked_services.dart';
 import 'package:wanderlust_expeditions/app/app.router.dart';
 import 'package:wanderlust_expeditions/ui/common/ui_helpers.dart';
 import 'package:wanderlust_expeditions/ui/widgets/mouse_transforms/scale_on_hover.dart';
 
-import '../../../app/app.locator.dart';
 import '../../common/app_functions.dart';
 import 'home_viewmodel.dart';
 
 class HomeViewDesktop extends ViewModelWidget<HomeViewModel> {
-  HomeViewDesktop({super.key});
-
-  final routerService = locator<RouterService>();
+  const HomeViewDesktop({super.key});
 
   @override
   Widget build(BuildContext context, HomeViewModel viewModel) {
@@ -151,17 +147,6 @@ class HomeViewDesktop extends ViewModelWidget<HomeViewModel> {
                 child: Row(
                   mainAxisSize: MainAxisSize.max,
                   children: [
-                    // const Text(
-                    //   'Wanderlust Expeditions',
-                    //   style: TextStyle(
-                    //     // fontFamily: 'Yatra',
-                    //     fontSize: 26,
-                    //     fontFamily: 'Afacad',
-                    //     fontWeight: FontWeight.w600,
-                    //     letterSpacing: 1,
-                    //     color: Color(0XFF103850),
-                    //   ),
-                    // ),
                     Image.asset(
                       'assets/gif/Wanderlust-unscreen.gif',
                       fit: BoxFit.cover,
@@ -173,7 +158,7 @@ class HomeViewDesktop extends ViewModelWidget<HomeViewModel> {
                       scale: 12,
                       child: TextButton(
                         onPressed: () {
-                          routerService.navigateToDestinationView();
+                          viewModel.routerService.navigateToDestinationView();
                         },
                         style: TextButton.styleFrom(
                           shape: RoundedRectangleBorder(

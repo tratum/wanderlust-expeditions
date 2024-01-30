@@ -4,9 +4,9 @@ import 'package:wanderlust_expeditions/app/app.dialogs.dart';
 import 'package:wanderlust_expeditions/app/app.locator.dart';
 
 class HomeViewModel extends BaseViewModel {
-  final _routerService = locator<RouterService>();
-  final _dialogService = locator<DialogService>();
-  final _bottomSheetService = locator<BottomSheetService>();
+  final routerService = locator<RouterService>();
+  final dialogService = locator<DialogService>();
+  final bottomSheetService = locator<BottomSheetService>();
 
   //
   // String get counterLabel => 'Counter is: $_counter';
@@ -27,8 +27,14 @@ class HomeViewModel extends BaseViewModel {
   // }
 
   void showAuthDialog() {
-    _dialogService.showCustomDialog(
+    dialogService.showCustomDialog(
       variant: DialogType.authDialog,
+    );
+  }
+
+  void showMobileAuthDialog() {
+    dialogService.showCustomDialog(
+      variant: DialogType.authDialogMobile,
     );
   }
 //
