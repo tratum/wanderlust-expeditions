@@ -1,0 +1,48 @@
+[33mcommit 642bd559e51302a1648489b540be9db7c3168814[m[33m ([m[1;36mHEAD -> [m[1;32mweb_build[m[33m, [m[1;31morigin/web_build[m[33m)[m
+Author: Saksham Rawat <saksham.01rawat@gmail.com>
+Date:   Fri Feb 2 15:18:16 2024 +0530
+
+    OG Image Meta tags added
+
+[33mcommit 588f6c2e26efb8cf6ec93bbb54ffeb557ac9d7f7[m
+Author: Saksham Rawat <saksham.01rawat@gmail.com>
+Date:   Sat Jan 27 04:14:34 2024 +0530
+
+    web rebuild
+
+[33mcommit a088fdca5dcef3d88f57d8472c611b4d764b91f6[m
+Author: Saksham Rawat <saksham.01rawat@gmail.com>
+Date:   Fri Jan 26 23:18:44 2024 +0530
+
+    adding base href
+
+[33mcommit 18485f919cd40a2611ce5080ac08dd5f83a62de2[m
+Merge: 8e8c57b d7d1a55
+Author: Saksham Rawat <saksham.01rawat@gmail.com>
+Date:   Fri Jan 26 23:15:07 2024 +0530
+
+    Merge branch 'web_build' of https://github.com/tratum/wanderlust-expeditions into web_build
+
+[33mcommit 8e8c57b5bee4e90bbacb43b09cbb1f9254ffe6cf[m
+Author: Saksham Rawat <saksham.01rawat@gmail.com>
+Date:   Fri Jan 26 23:14:22 2024 +0530
+
+    changes made in index.html
+
+[33mcommit d7d1a55dcb4b10c15c85c99c00a1e37bd1233622[m
+Author: Saksham Rawat <tratum.connect@gmail.com>
+Date:   Fri Jan 26 23:07:56 2024 +0530
+
+    Delete CNAME
+
+[33mcommit 808f1891ac985e0407056e2a221b610828ee05a7[m
+Author: Saksham Rawat <tratum.connect@gmail.com>
+Date:   Fri Jan 26 23:06:44 2024 +0530
+
+    Create CNAME
+
+[33mcommit 1b1114f29b669150d00a494532ebd57fa1a9dcbe[m
+Author: Saksham Rawat <saksham.01rawat@gmail.com>
+Date:   Fri Jan 26 22:54:26 2024 +0530
+
+    initialized web_build
