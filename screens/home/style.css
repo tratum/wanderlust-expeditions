@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Koulen', cursive, 'Macondo', cursive, 'Smooch', cursive;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo a {
+    color: #fff;
+    text-transform: none;
+    cursor: pointer;
+    font-family: 'Lobster';
+    font-size: 1.6em;
+    text-decoration: none;
+    letter-spacing: 0.07em;
+}
+
+.center button {
+    color: rgb(169, 45, 45);
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Koulen';
+    font-size: 1em;
+    display: inline-block;
+    background: #fff;
+    padding: 1px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-left: 45vw;
+}
+
+.center button:hover {
+    letter-spacing: 4px;
+}
+
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url(/assets/images/OIP.jpg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.toggle.active {
+    background: url(/assets/images/CIP.jpg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.showcase {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    color: #fff;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.showcase.active {
+    right: 300px;
+}
+
+.showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #336e7c;
+    mix-blend-mode: overlay;
+}
+
+.text {
+    position: relative;
+    z-index: 10;
+}
+
+.text h2 {
+    font-size: 5em;
+    font-weight: 500;
+    font-family: 'Koulen';
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.text h3 {
+    font-size: 4em;
+    font-weight: 500;
+    font-family: 'Koulen';
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.text p {
+    font-size: 2em;
+    font-family: 'Smooch';
+    color: #fff;
+    margin: 20px 0;
+    font-weight: 500;
+    max-width: 700px;
+}
+
+.text a {
+    display: inline-block;
+    font-size: 1.5em;
+    background: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    color: rgb(182, 55, 68);
+    letter-spacing: 2px;
+    transition: 0.2s;
+    font-family: 'Koulen';
+}
+
+.text a:hover {
+    letter-spacing: 6px;
+}
+
+.social {
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social li {
+    list-style: none;
+}
+
+.social li a {
+    display: inline-block;
+    margin-right: 20px;
+    transform: scale(0.5);
+    transition: 0.5s;
+    color: #fff;
+}
+
+.social li a:hover {
+    transform: scale(0.5) translateY(-15px);
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul {
+    position: relative;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #111;
+}
+
+.menu ul li a:hover {
+    color: var(--overlay-color);
+}
+
+@media (max-width: 798px) {
+
+    .showcase,
+    .showcase header {
+        padding: 40px;
+    }
+
+    .text h2 {
+        font-size: 3em;
+    }
+
+    .text h3 {
+        font-size: 2em;
+    }
+}
+
+
+.popup {
+    position: absolute;
+    top: -250%;
+    left: 52%;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.25);
+    width: 380px;
+    padding: 20px 30px;
+    background: #fff;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    transition: top 0ms ease-in-out 200ms;
+    opacity: 200ms ease-in-out 0ms;
+    transform: 200ms ease-in-out 0ms;
+}
+
+.popup.active {
+    top: 250%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    transition: top 0ms ease-in-out 0ms;
+    opacity: 200ms ease-in-out 0ms;
+    transform: 200ms ease-in-out 0ms;
+}
+
+.popup .close-btn {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 28px;
+    height: 24px;
+    background: rgb(182, 55, 68);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 22px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.popup .form h2 {
+    text-align: center;
+    color: rgb(182, 55, 68);
+    margin: 10px 0px 20px;
+
+    font-size: 40px;
+    font-family: 'Koulen';
+    font-weight: 500;
+    letter-spacing: 0.15em;
+}
+
+.popup .form .form-element {
+    margin: 15px 0px;
+}
+
+#email,
+#password {
+    margin-bottom: 15px;
+    width: 150px;
+}
+
+.popup .form .form-element label {
+    font-size: 20px;
+    font-weight: 400;
+    font-stretch: wider;
+    color: rgb(0, 0, 0);
+    font-family: 'Koulen';
+    letter-spacing: 0.15em;
+}
+
+.popup .form .form-element input[type="text"],
+.popup .form .form-element input[type="password"] {
+    margin-top: 10px;
+    display: block;
+    width: 10px;
+    outline: none;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+}
+
+.popup .form .form-element input[type="checkbox"] {
+    margin-right: 5px;
+    padding-bottom: 0px;
+}
+
+.popup .form .sign-in-btn button {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    background: #222;
+    color: rgb(221, 49, 66);
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Koulen';
+    letter-spacing: 0.15em;
+    text-transform: capitalize;
+
+}
+
+.popup .form .sign-in-btn {
+    padding-bottom: 18px;
+}
+
+.popup .form .register-btn {
+    padding-bottom: 18px;
+}
+
+.popup .form .register-btn a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(221, 49, 66);
+    text-decoration: none;
+    background: #222;
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Koulen';
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+}
+
+.popup .form .element {
+    padding-top: 4px;
+    padding-bottom: 18px;
+}
+
+.popup .form .element a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: rgb(221, 49, 66);
+    font-size: 18px;
+    font-family: 'Koulen';
+    font-weight: 500;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+}
